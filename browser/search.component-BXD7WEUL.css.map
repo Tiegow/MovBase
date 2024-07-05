@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/pages/search/search.component.css"],
+  "sourcesContent": [":host {\n  display: block;\n  text-align: center;\n  padding: 1rem;\n}\n\nh1{\n  background-color: #003566;\n  width: fit-content;\n  margin: 0 auto;\n  padding: .7rem;\n  border-radius: 10px;\n}"],
+  "mappings": "AAAA,MACE,QAAS,MACT,WAAY,OAFd,QAGW,IACX,CAEA,GACE,iBAAkB,QAClB,MAAO,YART,OASU,EAAE,KATZ,QAUW,MAVX,cAWiB,IACjB",
+  "names": []
+}

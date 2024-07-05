@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/pages/movieP/movieP.component.css"],
+  "sourcesContent": [":host {\n  display: block;\n  text-align: center;\n}\n\n.filme-detail-card{\n  display: block;\n  width: 50vw;\n  padding: 2rem 1rem;\n  margin: 2rem auto;\n  background-color: rgba(35,35,35,1);\n  border-bottom: .8rem solid #FFD60A;\n  border-radius: .5rem;\n}\n\nimg{\n  width: 70%;\n  border-bottom: .65rem solid #003566;\n  border-bottom-left-radius: .3rem;\n  border-bottom-right-radius: .3rem;\n}\n\n.filme-detail-head{\n  margin: 1rem 0;\n}\n\n.filme-detail-card p{\n  margin: .35rem 0;\n}\n\n.filme-detail{\n  text-align: left;\n  width: 80%;\n  margin: 0 auto;\n}\n\n.filme-detail i{\n  margin-right: .3rem;\n}\n\n.filme-detail h4{\n  margin-top: 1.25rem;\n}\n\n.filme-detail p{\n  text-align: left;\n}"],
+  "mappings": "AAAA,MACE,QAAS,MACT,WAAY,MACd,CAEA,CAAC,kBACC,QAAS,MACT,MAAO,KAPT,QAQW,KAAK,KARhB,OASU,KAAK,KACb,iBAAkB,QAClB,cAAe,MAAM,MAAM,QAX7B,cAYiB,KACjB,CAEA,IACE,MAAO,IACP,cAAe,OAAO,MAAM,QAC5B,0BAA2B,MAC3B,2BAA4B,KAC9B,CAEA,CAAC,kBAtBD,OAuBU,KAAK,CACf,CAEA,CArBC,kBAqBkB,EA1BnB,OA2BU,OAAO,CACjB,CAEA,CAAC,aACC,WAAY,KACZ,MAAO,IAhCT,OAiCU,EAAE,IACZ,CAEA,CANC,aAMa,EACZ,aAAc,KAChB,CAEA,CAVC,aAUa,GACZ,WAAY,OACd,CAEA,CAdC,aAca,EACZ,WAAY,IACd",
+  "names": []
+}

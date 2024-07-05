@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/components/movBusca/movBusca.component.css"],
+  "sourcesContent": [":host {\n  display: block;\n}\n\n.filme-list-container{\n  display: flex;\n  width: 90%;\n  margin: 2rem auto;\n  padding: 1rem 3rem;\n  cursor: pointer;\n  background-color: #080808;\n  border: .2rem solid #232323 \n}\n\n.filme-list-container:hover{\n  opacity: .65;\n}\n\n.filme-search-info{\n  padding: 2rem;\n  text-align: left;\n  align-content: center;\n  font-size: large;\n}\n\n.filme-search-info i{\n  margin: 1rem 0;\n}\n\n.filme-list-container img{\n  border: 5px solid #003566;\n}"],
+  "mappings": "AAAA,MACE,QAAS,KACX,CAEA,CAAC,qBACC,QAAS,KACT,MAAO,IANT,OAOU,KAAK,KAPf,QAQW,KAAK,KACd,OAAQ,QACR,iBAAkB,QAClB,OAAQ,MAAM,MAAM,OACtB,CAEA,CAVC,oBAUoB,OACnB,QAAS,GACX,CAEA,CAAC,kBAlBD,QAmBW,KACT,WAAY,KACZ,cAAe,OACf,UAAW,KACb,CAEA,CAPC,kBAOkB,EAzBnB,OA0BU,KAAK,CACf,CAEA,CAzBC,qBAyBqB,IACpB,OAAQ,IAAI,MAAM,OACpB",
+  "names": []
+}
