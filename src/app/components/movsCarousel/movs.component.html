@@ -1,0 +1,22 @@
+<p-carousel 
+  [value]="filmes" 
+  [numVisible]="img_qtd()" 
+  [numScroll]="1" 
+  [circular]="true" 
+  [showIndicators]="false" 
+  [autoplayInterval]="auto_interval()"
+  [showNavigators]="car_nav()"
+>
+  <ng-template let-filmes pTemplate="item">
+    <div class="filme-container" [routerLink]="'movie/'+filmes.id">
+      <img [class]="img_cat()" [src]="filmesService.obterImagem(filmes.poster_path)"/>
+      @if (!hide_rate()) {
+        <p>
+          <i class="pi pi-star-fill">
+            <span>{{filmes.vote_average}}</span>
+          </i>
+        </p>
+      }
+    </div>
+  </ng-template>
+</p-carousel>

@@ -1,0 +1,63 @@
+header{
+    padding: 1rem 5rem;
+    background-color: #080808;
+}
+
+/* NAV */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+#logo{
+    width: 3rem;
+}
+
+nav form{
+    display: flex;
+    gap: .5rem;
+}
+
+nav input{
+    padding: 0.2rem 0.8rem;
+    border-radius: 4px;
+    border: none;
+    background-color: white;
+    color: #080808;
+}
+
+::placeholder{
+    color: #080808;
+    opacity: .8;
+    font-weight: normal;
+}
+
+nav button{
+    padding: .3rem;
+    background-color: #FFD60A;
+    border: 2px solid #FFD60A;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+nav button:hover{
+    opacity: .6;
+    background-color: #FFC300;
+}
+/*  */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 10rem;
+    background-color: #080808;
+}

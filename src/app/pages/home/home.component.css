@@ -1,0 +1,72 @@
+:host {
+  display: block;
+}
+
+/* Banner */
+.home-banner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(180deg, rgba(8,8,8,1) 16%, rgba(35,35,35,1) 100%);
+  height: 80vh;
+}
+
+.banner-text{
+  width: 60vw;
+  height: 70%;
+  padding: 2rem;
+  font-size: 30px;
+  letter-spacing: 2px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #0035661f;
+  align-content: center;
+  text-align: right;
+}
+
+.carousel-top-filmes{
+  width: 40vw;
+  padding: 1rem;
+  height: 100%;
+  align-content: center;
+}
+/*  */
+
+.home-body{
+  display: block;
+  padding: 2rem 0;
+  padding-right: 0;
+  background-color: white;
+  color: #003566;
+}
+
+.home-genero, .home-genero-left{
+  margin-bottom: 4rem;
+}
+
+.home-genero{
+  padding-left: 5rem;
+}
+
+.home-genero-left{
+  padding-right: 5rem;
+  text-align: right;
+}
+
+.carousel-filmes{
+  margin: 1rem 0;
+  background-color: #00356620;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.carousel-filmes-left{
+  margin: 1rem 0;
+  background-color: #00356699;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.home-body h1{
+  font-weight: bolder;
+}

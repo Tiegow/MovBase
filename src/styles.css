@@ -1,0 +1,39 @@
+/* Estilos globais */
+@import "primeng/resources/themes/lara-dark-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import "primeicons/primeicons.css";
+
+*{
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #FFD60A;
+    cursor: pointer;
+    transition: .2s;
+}
+
+a:hover{
+    color: #FFC300;
+    opacity: .6;
+}
+
+i{
+    color: #FFC300;
+}
+
+.pi-star-fill{
+    letter-spacing: 1px;
+    /* margin-left: .5rem; */
+    font-size: smaller;
+    opacity: .9;
+    cursor: default;
+}
+
+.pi-star-fill:hover{
+    color: #FFD60A; 
+}

@@ -1,0 +1,14 @@
+<div class="filme-list">
+    @for (filme of filmes_pesquisa; track filme.id) {
+        <div class="filme-list-container" [routerLink]="'/movie/'+filme.id">
+            <img [src]="filmesService.obterImagem(filme.poster_path)"/>
+            <div class="filme-search-info">
+                <h4>{{filme.title}}</h4>
+                <i class="pi pi-star-fill">
+                    <span>{{filme.vote_average}}</span>
+                </i>
+                <p>Data de lançamento: {{filme.release_date}}</p>
+            </div>
+        </div>
+    }
+</div>

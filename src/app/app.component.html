@@ -1,0 +1,20 @@
+<header>
+    <nav>
+        <a routerLink="/">
+            <img id="logo" src="MB_LOGO.png"/>
+            <h2>MovBase</h2>
+        </a>
+        
+        <form (ngSubmit)="handleSubmit()">
+            <input type="text" placeholder="Buscar filme" [value]="busca" [(ngModel)]="busca" name="busca"/>
+            <button type="submit"><i class="pi pi-search" style="font-size: 1rem; color: black;"></i></button>
+        </form>
+    </nav>
+</header>
+
+<router-outlet></router-outlet>
+
+<footer>
+    <h5>Desenvolvido por <a href="https://github.com/Tiegow" target="_blank">Tiego Rafael</a></h5>
+    <h5>API: <a href="https://www.themoviedb.org/" target="_blank">TMDB</a></h5>
+</footer>

@@ -1,0 +1,64 @@
+<div class="home-banner">
+    <div class="banner-text">
+        <h3 style="font-weight:bolder;">MELHOR AVALIADOS</h3>
+        <p style="font-weight: lighter;">Descubra seu novo filme favorito!</p>
+    </div>
+    <app-movs class="carousel-top-filmes" [hide_rate]="true" mov_cat="top" [car_nav]="false" [auto_interval]="3500" img_cat="Banner-img" [img_qtd]="1.65"></app-movs>
+</div>
+
+<div class="home-body">
+    <div class="home-genero">
+        <h1>Ação</h1>
+        <app-movs class="carousel-filmes" mov_cat="acao" [car_nav]="true" img_cat="Movie-img" [img_qtd]="6"></app-movs>
+    </div>
+
+    <div class="home-genero">
+        <h1>Romance</h1>
+        <app-movs class="carousel-filmes" mov_cat="romance" [car_nav]="true" img_cat="Movie-img" [img_qtd]="6"></app-movs>
+    </div>
+
+    <div class="home-genero-left">
+        <h1>Recem lançados</h1>
+        <app-movs class="carousel-filmes-left" mov_cat="cartaz" [car_nav]="true" img_cat="Movie-img" [img_qtd]="6"></app-movs>
+    </div>
+
+    <div class="home-genero">
+        <h1>Ficção científica</h1>
+        <app-movs class="carousel-filmes" mov_cat="scf" [car_nav]="true" img_cat="Movie-img" [img_qtd]="6"></app-movs>
+    </div>
+
+    <div class="home-genero">
+        <h1>Animação</h1>
+        <app-movs class="carousel-filmes" mov_cat="anim" [car_nav]="true" img_cat="Movie-img" [img_qtd]="6"></app-movs>
+    </div>
+
+    <div class="home-genero-left">
+        <h1>Populares</h1>
+        <app-movs class="carousel-filmes-left" mov_cat="lancamento" [car_nav]="true" img_cat="Movie-img" [img_qtd]="6"></app-movs>
+    </div>
+
+    <div class="home-genero">
+        <h1>Baseados na história</h1>
+        <app-movs class="carousel-filmes" mov_cat="hist" [car_nav]="true" img_cat="Movie-img" [img_qtd]="6"></app-movs>
+    </div>
+
+    <div class="home-genero">
+        <h1>Documentários</h1>
+        <app-movs class="carousel-filmes" mov_cat="doc" [car_nav]="true" img_cat="Movie-img" [img_qtd]="6"></app-movs>
+    </div>
+
+    <div class="home-genero-left">
+        <h1>Lançando em breve</h1>
+        <app-movs class="carousel-filmes-left" mov_cat="lancamento" [car_nav]="true" img_cat="Movie-img" [img_qtd]="6"></app-movs>
+    </div>
+
+    <div class="home-genero">
+        <h1>Terror</h1>
+        <app-movs class="carousel-filmes" mov_cat="terror" [car_nav]="true" img_cat="Movie-img" [img_qtd]="6"></app-movs>
+    </div>
+
+    <div class="home-genero">
+        <h1>Velho oeste</h1>
+        <app-movs class="carousel-filmes" mov_cat="western" [car_nav]="true" img_cat="Movie-img" [img_qtd]="6"></app-movs>
+    </div>
+</div>

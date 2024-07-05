@@ -1,0 +1,31 @@
+<div class="filme-detail-card">
+    <img [src]="filmesService.obterImagemGG(filme.poster_path)"/>
+    <div class="filme-detail-head">
+        <h2>{{filme.title}}</h2>
+        <p>{{filme.tagline}}</p>
+        <i class="pi pi-star-fill">
+            <span>{{filme.vote_average}}</span>
+        </i>
+    </div>
+
+    <div class="filme-detail">
+        <h4><i class="pi pi-wallet"></i>Orçamento:</h4>
+        @if (filme.budget > 0) {
+            <p>{{filme.budget.toLocaleString('en-US', {style: 'currency', currency: 'USD'})}}</p>
+        }@else {
+            <p>Não informado</p>
+        }
+        <h4><i class="pi pi-chart-line"></i>Receita:</h4>
+        @if (filme.revenue > 0) {
+            <p>{{filme.revenue.toLocaleString('en-US', {style: 'currency', currency: 'USD'})}}</p>
+        }@else {
+            <p>Não informado</p>
+        }
+        <h4><i class="pi pi-clock"></i>Duração:</h4>
+        <p>{{filme.runtime}} min</p>
+        <h4><i class="pi pi-calendar"></i>Data de lançamento:</h4>
+        <p>{{filme.release_date}}</p>
+        <h4>Descrição:</h4>
+        <p>{{filme.overview}}</p>
+    </div>
+</div>

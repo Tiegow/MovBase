@@ -1,0 +1,32 @@
+:host {
+  display: block;
+}
+
+.filme-list-container{
+  display: flex;
+  width: 90%;
+  margin: 2rem auto;
+  padding: 1rem 3rem;
+  cursor: pointer;
+  background-color: #080808;
+  border: .2rem solid #232323 
+}
+
+.filme-list-container:hover{
+  opacity: .65;
+}
+
+.filme-search-info{
+  padding: 2rem;
+  text-align: left;
+  align-content: center;
+  font-size: large;
+}
+
+.filme-search-info i{
+  margin: 1rem 0;
+}
+
+.filme-list-container img{
+  border: 5px solid #003566;
+}

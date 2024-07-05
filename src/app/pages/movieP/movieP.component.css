@@ -1,0 +1,47 @@
+:host {
+  display: block;
+  text-align: center;
+}
+
+.filme-detail-card{
+  display: block;
+  width: 50vw;
+  padding: 2rem 1rem;
+  margin: 2rem auto;
+  background-color: rgba(35,35,35,1);
+  border-bottom: .8rem solid #FFD60A;
+  border-radius: .5rem;
+}
+
+img{
+  width: 70%;
+  border-bottom: .65rem solid #003566;
+  border-bottom-left-radius: .3rem;
+  border-bottom-right-radius: .3rem;
+}
+
+.filme-detail-head{
+  margin: 1rem 0;
+}
+
+.filme-detail-card p{
+  margin: .35rem 0;
+}
+
+.filme-detail{
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.filme-detail i{
+  margin-right: .3rem;
+}
+
+.filme-detail h4{
+  margin-top: 1.25rem;
+}
+
+.filme-detail p{
+  text-align: left;
+}
