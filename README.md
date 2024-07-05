@@ -1,4 +1,5 @@
 <div align="center">
+    <h1>MovBase</h1>
     <img src="https://tiegow.github.io/MovBase/MB_LOGO.png"/>
     <h3>Base de dados de filmes</h3>
 </div>
