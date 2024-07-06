@@ -12,6 +12,11 @@ MovBase fornece dados sobre diversos filmes dos cinemas e streaming, desde os no
 - Source e componentes em <a href="https://github.com/Tiegow/MovBase/tree/src/src">src</a>
 - Build do projeto em <a href="https://github.com/Tiegow/MovBase/tree/gh-pages">gh-pages</a>
 
+Atuais features do MovBase:
+- Listagem de filmes por suas classificações e gêneros;
+- Buscar por filmes que você conhece;
+- Obter informações úteis sobre os filmes
+
 ## Acessar
 O projeto está atualmente hospedado com o github pages. 
 
