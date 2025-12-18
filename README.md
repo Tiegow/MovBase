@@ -9,10 +9,11 @@
     <img src="public/HomePrint.png"/>
     <p>Página inicial do MovBase</p>
 </div>
-MovBase fornece dados sobre diversos filmes dos cinemas e streaming, desde os novos lançamentos até os amados clássicos do cinema. O site foi implementado usando **Angular 18**, e faz uso da **The Movie Database (TMDB)**, uma base de dados para filmes e séries.
-
-- Source e componentes em <a href="https://github.com/Tiegow/MovBase/tree/src/src">src</a>
-- Build do projeto em <a href="https://github.com/Tiegow/MovBase/tree/gh-pages">gh-pages</a>
+MovBase fornece dados sobre diversos filmes dos cinemas e streaming, desde os novos lançamentos até os amados clássicos do cinema. O site foi implementado usando <b>Angular 18</b> , e faz uso da <b>The Movie Database (TMDB)</b>, uma base de dados para filmes e séries.
+<br><br>
+<div align="center">
+    <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-original.svg" height="150" width="250"/>
+</div>
 
 # Features
 ### Listagem de filmes por suas classificações e gêneros
